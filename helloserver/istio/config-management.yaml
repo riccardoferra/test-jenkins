@@ -7,7 +7,7 @@ spec:
   # clusterName is required and must be unique among all managed clusters
   clusterName: cluster-test
   git:
-    syncRepo: https://github.com/riccardoferra/test-jenkins.git
+    syncRepo: git@github.com:riccardoferra/test-jenkins.git
     syncBranch: main
     secretType: ssh
-    policyDir: "DIRECTORY"
+    policyDir: "config-root"
