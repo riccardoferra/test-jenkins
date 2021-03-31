@@ -26,9 +26,5 @@ spec:
   - route:
     - destination:
         host: hellosvc
-        subset: v1
-      weight: 15
     - destination:
         host: hellosvc
-        subset: v2
-      weight: 85
