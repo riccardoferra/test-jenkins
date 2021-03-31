@@ -17,7 +17,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helloserver
+  name: helloserver-v2
 spec:
   replicas: 1
   selector:
@@ -29,7 +29,7 @@ spec:
         app: helloserver
     spec:
       containers:
-      - image: gcr.io/google-samples/istio/helloserver:v0.0.1
+      - image: gcr.io/pragmatic-ruler-308508/asm-ready/helloserver:v0.0.2
         imagePullPolicy: Always
         name: main
       restartPolicy: Always
