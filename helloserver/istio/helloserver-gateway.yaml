@@ -26,13 +26,9 @@ spec:
   - route:
     - destination:
         host: hellosvc
-        port:
-          number: 80
         subset: v1
       weight: 15
     - destination:
         host: hellosvc
-        port:
-          number: 80
         subset: v2
       weight: 85
