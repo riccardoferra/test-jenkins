@@ -26,5 +26,5 @@ spec:
   - route:
     - destination:
         host: hellosvc
-    - destination:
-        host: hellosvc
+        port:
+          number: 80
